@@ -1,0 +1,15 @@
+.Lastname{
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: black;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+#name{
+    color: rgb(115, 28, 177);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: black;
+    margin-left: 50px;
+    padding: 3px;
+}
