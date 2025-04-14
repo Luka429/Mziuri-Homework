@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <a href="home.html">Go back to home page</a><br />
+
+    <form name="form" action="sign-up.html" method="post">
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="username"
+      /><br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Your Password"
+      />
+      <input
+        type="password"
+        name="password2"
+        id="password2"
+        placeholder="Reenter your password"
+      /><br />
+      Age: <input type="number" name="age" id="age" minlength="0" /><br />
+      Country of residence:
+      <input type="text" name="country" id="country" /><br />
+      Male: <input type="radio" name="gender" id="male" value="male" /> Female:
+      <input type="radio" name="gender" id="female" value="female" /><br />
+      <button type="submit">Click to submit</button>
+    </form>
+  </body>
+</html>
