@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    {% if users %}
+        <h1> Users list </h1>
+        <ul>
+            {% for user in users %}
+                <li>{{ user }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <h1> Users NOT found :c </h1>
+    {% endif %}
+</div>
+{% endblock %}
+    
+>
